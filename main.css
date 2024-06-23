@@ -1,0 +1,31 @@
+.input_container{
+    display: flex;
+    gap: 20px;
+}
+.input_container input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 5px 2px;
+}
+
+.bttn{
+    padding: 10px 20px 10px 20px;
+    margin-top: 30px;
+    font-size: 20p;
+    border-radius: 3px;
+    background-color: rgb(255, 182, 193);
+    box-shadow: 10px 3px 2px 3px #da7daa;
+    transition: all .5s;
+}
+.bttn:hover{
+    background-color: #da7daa;
+    box-shadow: none;
+}
+
+#container{
+font-size: 20px;
+margin-top: 20px;
+font-style: italic;
+}
